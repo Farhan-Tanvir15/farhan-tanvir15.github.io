@@ -1,0 +1,229 @@
+/* universal Selector */
+*{box-sizing:border-box}
+/* scroll behavior */
+html{scroll-behavior: smooth;}
+/* body */
+body{margin: 0;padding: 0;}
+/* header section */
+.header-s{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+/* site title */
+.site-title{color: #2a2a2a;font: 600 1.6rem/2rem arial;text-transform: capitalize;}
+/* navigation */
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navigation ul li a{
+    color: #02b0cf;
+    font: 400 1.1rem/2rem arial;
+    padding: 4px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navigation ul li a:hover{color: #026e81;}
+/* Slideshow container */
+.slideshow-container {position: relative;margin: auto;}
+/* Hide the images by default */
+.mySlides {display: none;}
+.mySlides img{height: 555px;width: 100%;}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {right: 0;border-radius: 3px 0 0 3px;}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font: 300 1.2rem/1.6rem cursive;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  word-spacing: 4px;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* introduction */
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    margin: 44px auto;
+    width: 90%;
+}
+.intro-title{
+    border-left: 3px solid #00c721;
+    color: #00c721;
+    font: 600 1.5rem/2rem arial;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+.intro-describe{
+    color: #444444;
+    font: 300 1rem/2rem verdana;
+    padding: 4px 8px 4px 6px;
+    width: 575px;
+}
+.intro-img img{border-radius: 11px; height: 360px;width: 575px;}
+/* service */
+.our-service{background: #f6f6f6;}
+/* service section title */
+.service-title{
+    color: #2a2a2a;
+    font: 600 1.5rem/2rem arial;
+    padding: 26px 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* service card container */
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 44px 0;
+    width: 90%;
+}
+/* service card */
+.service-card{
+    background: #ffffff;
+    border-radius: 22px;
+    box-shadow: 1px 1px 1px 1px #f1f1f1;
+    height: 300px;
+    padding: 18px 16px 8px 18px;
+    width: 333px;
+}
+/* service card image */
+.sc-img{height: 100px;width: 100px;}
+/* service card title */
+.sc-title{
+    color: #2a2a2a;
+    font: 600 1.1rem/1.5rem arial;
+    margin: 16px 0 0 0;
+    text-transform: capitalize;
+}
+/* service card text */
+.sc-text{color: #5d5d5d;font: 300 0.9rem/1.6rem verdana;margin: 8px 0 0 0;}
+/* footer */
+/* subscribe to newsletter column */
+.newsletter{background: #e9e9e9;}
+/* newsletter form */
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 44px 0;
+    width: 70%;
+}
+.newsletter form input{
+    border: none;
+    border-radius: 8px;
+    font: 400 1.1rem/1.5rem arial;
+    padding: 12px 16px;
+    width: 666px;
+}
+.newsletter form input:focus{box-shadow: 1px 1px 4px 2px #c3c3c3e1; outline: none;}
+.newsletter form input::placeholder{text-transform: capitalize;}
+.newsletter form button{
+    background: #EA2027;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font: 600 1rem/1.5rem arial;
+    letter-spacing: 0.01rem;
+    margin: 0 11px;
+    padding: 12px 18px;
+    text-transform: uppercase;
+}
+.newsletter form button:hover{box-shadow: 1px 1px 3px 2px #c7c7c7; cursor: pointer;}
+/* footer data container */
+.fd-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 33px 0;
+    width: 90%;
+}
+/* footer data title (column style for all column titles) */
+.fd-title{
+    border-bottom: 2px solid #444444;
+    color: #3a3a3a;
+    font: 600 1.11rem/1.6rem arial;
+    padding: 4px 6px;
+    text-transform: capitalize;
+}
+/* social media column */
+.sm-links a{padding: 6px;}
+.sm-links a img{height: 44px;width: 44px;}
+.sm-links a img:hover{opacity: 0.8;}
+/* contact address column */
+.contact-details{display: flex;flex-direction: column;}
+.contact-details a{
+    display: flex;
+    align-items: center;
+    padding: 12px 4px;
+    text-decoration: none;
+}
+.contact-details a:first-child{padding-top: 0;}
+.contact-details a img{height: 32px;width: 32px;}
+.contact-details a span{
+    color: #3a3a3a;
+    font: 400 1rem/1.5rem verdana;
+    letter-spacing: 0.05rem;
+    padding: 0 12px;
+}
+.contact-details a span:hover{color: #02b0cf;}
+.s-address span:hover{color: #3a3a3a !important;}
+/* our partner column */
+.partners{width: 333px;}
+.partner-link a img{height: 75px;padding: 6px; width: 75px;}
+.partner-link a img:hover{outline: 2px solid #e1e1e1; opacity: 0.85;}
+/* copyright section */
+.copyright{background: #f2f2f2;padding: 16px 8px;}
+/* copyright text */
+.copyright h3{
+    color: #2a2a2a;
+    font: 600 0.95rem/1.5rem arial;
+    letter-spacing: 0.04rem;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 0.2rem;
+}

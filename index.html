@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Webpage</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header-s">
+    <!-- site title -->
+        <h2 class="site-title">simple webpage</h2>
+        <!-- site navigation -->
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#service">service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- slider section -->
+    <section>
+       <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="img/sliderimg1.jpg">
+                <div class="text">simple work setup</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="img/sliderimg2.jpg">
+                <div class="text">productivity setup</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="img/sliderimg3.jpg">
+                <div class="text">gaming setup</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="img/sliderimg4.jpg">
+                <div class="text">simple, nit & clean setup</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+    <!-- introduction section -->
+    <section class="introduction" id="about">
+        <!-- introduction text div -->
+        <div class="intro-text">
+            <!-- intro text title -->
+            <h3 class="intro-title">building your dream PC</h3>
+            <!-- intro text description -->
+            <p class="intro-describe">
+                Build your dream gaming PC with Simple Webpage. High performance computers at a low price.Custom gaming desktops and laptops computers built with the best high performance components, overclocked processors, and liquid cooling for your gaming. If you're looking to build your own gaming pc we can help. We reviews all the latest tech to give you the best advice for you perfect gaming computer.
+            </p>
+        </div>
+        <!-- introduction Image -->
+        <div class="intro-img">
+            <img src="img/rigsetupgif.gif" alt="">
+        </div>
+    </section>
+    <!-- service section -->
+    <section class="our-service" id="service">
+        <!-- service section title -->
+        <h3 class="service-title">our services</h3>
+        <!-- service cards -->
+        <div class="services">
+            <!-- service card -->
+            <div class="service-card">
+                <!-- service card image -->
+                <img src="img/delivery-truck.png" alt="" class="sc-img">
+                <!-- service card title -->
+                <h4 class="sc-title">free delivery</h4>
+                <!-- service card text -->
+                <p class="sc-text">
+                    We provide free devlivery service to you. You don't have to spend any extra amount for getting the product to your door.
+                </p>
+            </div>
+            <div class="service-card">
+                <img src="img/cash-on-delivery.png" alt="" class="sc-img">
+                <h4 class="sc-title">cash on delivery</h4>
+                <p class="sc-text">
+                    Don't have any digital payment service to pay us. Don't worry, we provide cash on delivery service to your doorstep.
+                </p>
+            </div>
+            <div class="service-card">
+                <img src="img/24-hours-support.png" alt="" class="sc-img">
+                <h4 class="sc-title">24 hours support</h4>
+                <p class="sc-text">
+                    Having truoble with your product, you can contact us anytime. We have 24 hours support for you. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer-s">
+        <!-- subscribe to newsletter -->
+        <div class="newsletter">
+            <form method="GET">
+                <!--  input email address -->
+                <input type="email" name="" id="" placeholder="subscribe to our newsletter">
+                <!-- email address submit button -->
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+        <!-- footer data section -->
+        <div class="footer-data">
+            <!-- footer data container (for 90% width) -->
+            <div class="fd-container">
+                <!-- social media column -->
+                <div class="social-media">
+                    <!-- footer data divs title (common text style) -->
+                    <h4 class="fd-title">Follow us on</h4>
+                    <!-- social media links -->
+                        <div class="sm-links">
+                            <a href="https://www.facebook.com/"><img src="img/facebook.png" alt=""></a>
+                            <a href="https://www.twitter.com"><img src="img/twitter.png" alt=""></a>
+                            <a href="https://www.instagram.com"><img src="img/instagram.png" alt=""></a>
+                            <a href="https://www.youtube.com"><img src="img/youtube.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- contact address -->
+                <div class="address">
+                    <h4 class="fd-title">contact us</h4>
+                    <!-- contact details -->
+                    <div class="contact-details">
+                        <a class="s-address">
+                            <img src="img/shops.png" alt="">
+                            <span>24/E, Fox Street, Berlin</span>
+                        </a>
+                        <a href="mailto:simplewebpage@domain.com">
+                            <img src="img/gmail.png" alt="">
+                            <span>simplewebpage@domain.com</span>
+                        </a>
+                        <a href="tel:+8504501802">
+                            <img src="img/phone.png" alt="">
+                            <span>+850 450 1802</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- our partner column -->
+                <div class="partners">
+                    <h4 class="fd-title">our amazing partners</h4>
+                    <!-- partner links -->
+                    <div class="partner-link">
+                        <a href="#"><img src="img/acer.png" alt=""></a>
+                        <a href="#"><img src="img/asrock.jpeg" alt=""></a>
+                        <a href="#"><img src="img/asus.png" alt=""></a>
+                        <a href="#"><img src="img/amd.png" alt=""></a>
+                        <a href="#"><img src="img/dell.png" alt=""></a>
+                        <a href="#"><img src="img/gigabyte.png" alt=""></a>
+                        <a href="#"><img src="img/nvidia.png" alt=""></a>
+                        <a href="#"><img src="img/lenovo.png" alt=""></a>
+                        <a href="#"><img src="img/hp.png" alt=""></a>
+                        <a href="#"><img src="img/msi.png" alt=""></a>
+                        <a href="#"><img src="img/seagate.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright section -->
+        <div class="copyright">
+            <!-- copyright text -->
+            <h3>copyright &#169; 2021 Simple Webpage</h3>
+        </div>
+    </footer>
+    <!-- custom javascript -->
+    <script src="main.js"></script>
+</body>
+</html>
