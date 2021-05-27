@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/webCREATE-logo.ico" type="image/x-icon">
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
     <title>Simple Webpage</title>
@@ -11,19 +13,22 @@
 <body>
     <!-- header -->
     <header class="header-s">
-    <!-- site title -->
-        <h2 class="site-title">simple webpage</h2>
-        <!-- site navigation -->
-        <nav class="navigation">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#service">service</a></li>
-            </ul>
-        </nav>
+        <!-- header section container -->
+        <div class="hs-container">
+            <!-- site title -->
+            <h2 class="site-title">simple webpage</h2>
+            <!-- site navigation -->
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#service">service</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- slider section -->
-    <section>
+    <section class="s-slider">
        <!-- Slideshow container -->
         <div class="slideshow-container">
             <!-- Full-width images with number and caption text -->
@@ -169,6 +174,7 @@
             <h3>copyright &#169; 2021 Simple Webpage</h3>
         </div>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/growth.png" alt="" height="40px" width="40px"></button>
     <!-- custom javascript -->
     <script src="main.js"></script>
 </body>
